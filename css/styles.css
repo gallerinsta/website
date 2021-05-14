@@ -6107,7 +6107,9 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fdcc52 !important;
+  /* background-color: #fdcc52 !important; */
+  background: url("../assets/img/background-img.jpg");
+
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10277,6 +10279,8 @@ section.features .section-heading h2 {
 section.features .section-heading p {
   margin-bottom: 0;
 }
+
+
 section.features .device-container,
 section.features .feature-item {
   max-width: 325px;
