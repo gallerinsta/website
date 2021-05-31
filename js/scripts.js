@@ -59,11 +59,11 @@
 
 setInterval(function() {
 $('#slideshow > div:first')
-.fadeOut(2000)
-.next()
-.fadeIn(3000)
+.fadeOut(1000)
+.next(3000)
+.fadeIn(2000)
 .end()
 .appendTo('#slideshow');
-},  5000);
+},  6000);
 
 })(jQuery); // End of use strict
