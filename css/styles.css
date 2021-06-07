@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #efe6d2;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6108,12 +6108,13 @@ a.close.disabled {
 
 .bg-primary {
   /* background-color: #fdcc52 !important; */
-  background: url("../assets/img/background-img.jpg");
+  background-color: #f38800;
 
 }
 
 .bg-primary1 {
   /* background-color: #fdcc52 !important; */
+
   background: url("../assets/img/manifesto.jpg");
 width: 100% !important;
 height: 100% !important;
@@ -9887,7 +9888,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+
 }
 
 .text-black-50 {
@@ -10295,6 +10296,15 @@ section.features .section-heading p {
   margin-bottom: 0;
 }
 
+.color-t {
+  color: #f38800;
+}
+
+.color-t2 {
+  color: #6caa8a;
+}
+
+
 
 section.features .device-container,
 section.features .feature-item {
@@ -10330,8 +10340,8 @@ section.features .feature-item i {
 footer {
   padding: 25px 0;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #212529;
+  /* color: rgba(255, 255, 255, 0.3); */
+  background-color: #eacdaa;
 }
 footer p {
   font-size: 12px;
